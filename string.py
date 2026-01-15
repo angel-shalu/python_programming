@@ -1,28 +1,28 @@
-# # String with for loop
-# for i in range(10):
-#     print(i)
+# String with for loop
+for i in range(10):
+    print(i)
     
-# for i in range(1,10):   # strat, stop
-#     print(i)
+for i in range(1,10):   # strat, stop
+    print(i)
     
-# for i in range(1,10,2):  # start, stop, step
-#     print(i)
+for i in range(1,10,2):  # start, stop, step
+    print(i)
 
 
-# # =============================    
-# str = "shalini"   
-# print(type(str))
+# =============================    
+str = "shalini"   
+print(type(str))
 
-# l = len(str)
-# print(l)
+l = len(str)
+print(l)
 
-# s = "welcome"
-# for i in s:
-#     print(s)
+s = "welcome"
+for i in s:
+    print(s)
     
-# s = "welcome"
-# for i in s:
-#     print(i)
+s = "welcome"
+for i in s:
+    print(i)
 
 
 # =================================   
@@ -53,7 +53,7 @@ for i in range(len(s)):
 # ====================================
 
 # STRING METHOD
-### capitalize(): Converts the first character the string to Capital Letter
+## capitalize(): Converts the first character the string to Capital Letter
 
 str = "welcome"  
 x = str.capitalize()
@@ -98,3 +98,64 @@ print(x)
 # ==========================================================
 # WAP to find the character whose ascii value is prime from string taken from the user
 # ===========================================================
+s = input("Enter the string: ")
+
+for i in s:
+    x = ord(i)
+    count = 0
+    i = 1
+
+    while i <= x:
+        if x % i == 0:
+            count += 1
+        i += 1
+
+    if count == 2:
+        print(chr(x))
+        print(x)
+
+# ==========================================================
+# WAP to arrange a string in the asscending order input taken from the user
+# ===========================================================
+s = input("Enter the string: ")
+s = list(s)
+for i in range (len(s)):
+    for j in range(i+1, len(s)):
+        x = ord(s[i])
+        y = ord(s[j])   
+        if s[i] > s[j]:
+            temp = s[i]
+            s[i] = s[j]
+            s[j] = temp
+print(s)
+
+s = "cba"
+for i in range (len(s)):
+    for j in range(i+1, len(s)-1):
+        if(ord(s[i])>ord(s[j])):
+            temp = s[i]
+            s[i] = s[j]
+            s[j] = temp 
+print(s)
+
+
+
+s = input("Enter the string: ")
+n=len(s)
+for i in range(len(s)):
+    for j in range(i + 1, n):
+        if ord(s[i]) > ord(s[j]):
+            temp = s[i]
+            # swap by rebuilding string
+            s = s[:i] + s[j] + s[i+1:j] + temp + s[j+1:]
+
+print(s)
+
+# ========================================================
+# WAP to multiple two input using russian multipliication
+# ========================================================
+
+s = int(input("Enter first number: "))
+
+
+
