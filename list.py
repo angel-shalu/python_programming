@@ -37,6 +37,7 @@ print(ls)
 #======================================================
 # CRUD OPERATION OF LIST
 ls = []
+
 while(True):         # infinite loop
     print("""
           Press 1 for add data in list
@@ -45,17 +46,53 @@ while(True):         # infinite loop
           Press 4 for delete the data 
           Press 5 for exit.
           """)
-    choice = int(input("Enter your Choice:"))                # taking choice from user
-    if(choice==1):                                           # add data
-        ndata=int(input("Enter the data to be added:"))      # taking number of data to be added
-        for i in range(ndata):                               # loop for number of data
-            print(f"Enter the {i+1} data:")                  # taking data from user
-            data = input("Enter the data:")                  # taking data from user
-            ls.append(data)                                  # adding data to list
-    elif(choice==2):                                         # read data
-        print(ls)
-    elif(choice==3):                                         # update data
+
+    choice = int(input("Enter your Choice:"))    # taking choice from user
+
+    # ---------------- CREATE ----------------
+    if(choice==1):                              
+        ndata = int(input("Enter the data to be added:"))
+        for i in range(ndata):
+            print(f"Enter the {i+1} data:")
+            data = input("Enter the data:")
+            ls.append(data)
+
+    # ---------------- READ ----------------
+    elif(choice==2):                            
+        print("Read the data:")
+        for i in ls:
+            print(f"My data = {i}")
+
+    # ---------------- UPDATE ----------------
+    elif(choice==3):                            
+        print("Update the data:")
+        data = input("Enter the data to be updated:")
+        try:
+            x = ls.index(data)
+            udata = input("Enter the updated data:")
+            ls[x] = udata
+            print("Data updated successfully.")
+        except:
+            print("Data not found.")
+
+    # ---------------- DELETE ----------------
+    elif(choice==4):                            
+        print("Delete the data:")
+        data = input("Enter the data to be deleted:")
+        try:
+            x = ls.index(data)
+            ls.pop(x)
+            print("Data deleted successfully.")
+        except:
+            print("Data not found.")
+
+    # ---------------- EXIT ----------------
+    elif(choice==5):                            
+        print("Thanks for the operation.")
         break
+
+    else:
+        print("Your choice is Invalid.")
 
 #================================================================   
 
@@ -150,7 +187,7 @@ for i in range(1, 101):      # it will print counting from 1 to 100
     ls.append(i)             # adding element to list
 print(ls)
 
-# ==========================================================
+# # =========================================================
 
 ls = [ i**2 for i in range (1,101)]      # it will print square of counting from 1 to 100
 print(ls)
@@ -165,47 +202,67 @@ ls =[ i for i in range (97, 123)]        # it will print ascii value from 65 to 
 for i in ls:
     print(chr(i))
     print(chr(i), end=" ") 
+
+
+
     
-# ==================================================
-# Aise number ko print kro jiska ascci value parlidrome ho
-# ==================================================    
-ls = [i for i in range(32, 127)]
-print(ls)                                  # it will print ascii value from 32 to 126
-print("Lenght of the list :", len(ls))     # it will print lenght of the list
-
-for i in ls:
-    x = str(i)
-    print(x)                              # it will print ascii value from 32 to 126
-    if x == x[::-1]:
-        print(chr(i), ":", i)             # it will print character whose ascii value is palindrome
-
-# 2nd method
-ls = [i for i in range(32, 127)]
-for i in ls:    
-    x = str(i)
-    if x == x[::-1]:
-        print(chr(i), ":", i)
+# # ==================================================
+# # Aise number ko print kro jiska ascci value parlidrome ho
+# # ==================================================    
+ls = [i for i in range(65, 91)]
+ls1 = []
+for j in ls:                                # it will create a list of ascii value from 65 to 90
+    rev = 0                                 # initialize rev to 0
+    temp = j                                # store the value of j in temp
+    while (j != 0):                         # loop until j is not equal to 0
+        digit = temp % 10                   # get the last digit of temp
+        rev = rev * 10 + digit              # build the reverse number
+        j = j // 10                         # remove the last digit of temp
+    if temp == rev:                         # check if temp is equal to rev
+        print(chr(temp), ":", temp)         # print the character whose ascii value is palindrome
+        ls1.append(temp)                    # append the palindrome ascii value to the list
+print("List of palindrome ascii values:", ls1)      # print the list of palindrome ascii values
         
-# =========================================================
-# WAP to find consonante and vovel from A to Z character in a list and seprate them and stored in another list 
+
+        
+# # =========================================================
+# # WAP to find consonante and vovel from A to Z character in a list and seprate them and stored in another list 
+# # =========================================================
 letters = []
 vowels = []
 consonants = []
 
-for ch in range(65, 91):   # A to Z
-    letters.append(chr(ch))
+for i in range(65, 91):   # A to Z
+    letters.append(chr(i))
 
-for ch in letters:
-    if ch in "AEIOU":
-        vowels.append(ch)
+for i in letters:
+    if i in "AEIOU":
+        vowels.append(i)
     else:
-        consonants.append(ch)
+        consonants.append(i)
 
 print("Vowels:", vowels)
 print("Consonants:", consonants)
 
+
+# 2nd method
+letters = []
+vowels = []
+consonants = []
+
+for i in range(65, 91):   # A to Z
+    if(chr(i) == "A" or chr(i) == "E" or chr(i) == "I" or chr(i) == "O" or chr(i) == "U"):
+        vowels.append(chr(i))
+    else:
+        consonants.append(chr(i))
+
+print("Vowels:", vowels)
+print("Consonants:", consonants)
+
+
 # =========================================================
 # WAP to find all the perfect square of a number from 1 to 1000 numbers
+# =========================================================
 print("Perfect square numbers from 1 to 1000:")
 
 for i in range(1, 1001):         # loop from 1 to 1000
@@ -216,40 +273,48 @@ for i in range(1, 1001):         # loop from 1 to 1000
         j += 1                   # increment j
 
 
-# =========================================================
-# WAP to make CRUD OPERATIONS using choice based in a list
-# =========================================================
-lst = []
+# # =========================================================
+# # WAP to make CRUD OPERATIONS using choice based in a list
+# # =========================================================
+# lst = []
 
-while True:
-    print("\n1. Create\n2. Read\n3. Update\n4. Delete\n5. Exit")
-    choice = int(input("Enter your choice: "))
+# while True:
+#     print("\n1. Create\n2. Read\n3. Update\n4. Delete\n5. Exit")
+#     choice = int(input("Enter your choice: "))
 
-    if choice == 1:
-        val = input("Enter value: ")
-        lst.append(val)
+#     if choice == 1:
+#         val = input("Enter value: ")
+#         lst.append(val)
 
-    elif choice == 2:
-        print("List:", lst)
+#     elif choice == 2:
+#         print("List:", lst)
 
-    elif choice == 3:
-        pos = int(input("Enter index to update: "))
-        val = input("Enter new value: ")
-        if pos < len(lst):
-            lst[pos] = val
-        else:
-            print("Invalid index")
+#     elif choice == 3:
+#         pos = int(input("Enter index to update: "))
+#         val = input("Enter new value: ")
+#         if pos < len(lst):
+#             lst[pos] = val
+#         else:
+#             print("Invalid index")
 
-    elif choice == 4:
-        pos = int(input("Enter index to delete: "))
-        if pos < len(lst):
-            lst.pop(pos)
-        else:
-            print("Invalid index")
+#     elif choice == 4:
+#         pos = int(input("Enter index to delete: "))
+#         if pos < len(lst):
+#             lst.pop(pos)
+#         else:
+#             print("Invalid index")
 
-    elif choice == 5:
-        break
+#     elif choice == 5:
+#         break
 
-    else:
-        print("Invalid choice")
-# ==========================================================
+#     else:
+#         print("Invalid choice")
+# # ==========================================================
+
+    
+
+        
+            
+    
+
+    

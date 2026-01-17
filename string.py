@@ -156,6 +156,14 @@ print(s)
 # ========================================================
 
 s = int(input("Enter first number: "))
+t = int(input("Enter second number: "))
+result = 0
+while s >= 1:
+    if s % 2 != 0:
+        result = result + t
+    s = s // 2
+    t = t * 2
+print("Multiplication is:", result)
 
 
 
