@@ -37,7 +37,6 @@ print(ls)
 #======================================================
 # CRUD OPERATION OF LIST
 ls = []
-
 while(True):         # infinite loop
     print("""
           Press 1 for add data in list
@@ -46,53 +45,20 @@ while(True):         # infinite loop
           Press 4 for delete the data 
           Press 5 for exit.
           """)
-
-    choice = int(input("Enter your Choice:"))    # taking choice from user
-
-    # ---------------- CREATE ----------------
-    if(choice==1):                              
-        ndata = int(input("Enter the data to be added:"))
-        for i in range(ndata):
-            print(f"Enter the {i+1} data:")
-            data = input("Enter the data:")
-            ls.append(data)
-
-    # ---------------- READ ----------------
-    elif(choice==2):                            
-        print("Read the data:")
-        for i in ls:
-            print(f"My data = {i}")
-
-    # ---------------- UPDATE ----------------
-    elif(choice==3):                            
-        print("Update the data:")
-        data = input("Enter the data to be updated:")
-        try:
-            x = ls.index(data)
-            udata = input("Enter the updated data:")
-            ls[x] = udata
-            print("Data updated successfully.")
-        except:
-            print("Data not found.")
-
-    # ---------------- DELETE ----------------
-    elif(choice==4):                            
-        print("Delete the data:")
-        data = input("Enter the data to be deleted:")
-        try:
-            x = ls.index(data)
-            ls.pop(x)
-            print("Data deleted successfully.")
-        except:
-            print("Data not found.")
-
-    # ---------------- EXIT ----------------
-    elif(choice==5):                            
-        print("Thanks for the operation.")
+    
+    choice = int(input("Enter your Choice:"))                # taking choice from user
+    
+    if(choice==1):                                           # add data
+        ndata=int(input("Enter the data to be added:"))      # taking number of data to be added
+        for i in range(ndata):                               # loop for number of data
+            print(f"Enter the {i+1} data:")                  # taking data from user
+            data = input("Enter the data:")                  # taking data from user
+            ls.append(data) 
+        
+    elif(choice==2):         # read data
+        print(ls)
+    elif(choice==3):                                         # update data
         break
-
-    else:
-        print("Your choice is Invalid.")
 
 #================================================================   
 
@@ -273,42 +239,64 @@ for i in range(1, 1001):         # loop from 1 to 1000
         j += 1                   # increment j
 
 
-# # =========================================================
-# # WAP to make CRUD OPERATIONS using choice based in a list
-# # =========================================================
-# lst = []
 
-# while True:
-#     print("\n1. Create\n2. Read\n3. Update\n4. Delete\n5. Exit")
-#     choice = int(input("Enter your choice: "))
+# =========================================================
+# WAP to make CRUD OPERATIONS using choice based in a list
+# =========================================================
+# CRUD OPERATION OF LIST
+ls = []
 
-#     if choice == 1:
-#         val = input("Enter value: ")
-#         lst.append(val)
+while(True):         # infinite loop
+    print("""
+          Press 1 for add data in list
+          Press 2 for read the data 
+          Press 3 for update the data 
+          Press 4 for delete the data 
+          Press 5 for exit.
+          """)
 
-#     elif choice == 2:
-#         print("List:", lst)
+    choice = int(input("Enter your Choice:"))    # taking choice from user
 
-#     elif choice == 3:
-#         pos = int(input("Enter index to update: "))
-#         val = input("Enter new value: ")
-#         if pos < len(lst):
-#             lst[pos] = val
-#         else:
-#             print("Invalid index")
+    if(choice==1):                              
+        ndata = int(input("Enter the data to be added:"))
+        for i in range(ndata):
+            print(f"Enter the {i+1} data:")
+            data = input("Enter the data:")
+            ls.append(data)
 
-#     elif choice == 4:
-#         pos = int(input("Enter index to delete: "))
-#         if pos < len(lst):
-#             lst.pop(pos)
-#         else:
-#             print("Invalid index")
+    elif(choice==2):                            
+        print("Read the data:")
+        for i in ls:
+            print(f"My data = {i}")
 
-#     elif choice == 5:
-#         break
+    elif(choice==3):                            
+        print("Update the data:")
+        data = input("Enter the data to be updated:")
+        try:
+            x = ls.index(data)
+            udata = input("Enter the updated data:")
+            ls[x] = udata
+            print("Data updated successfully.")
+        except:
+            print("Data not found.")
 
-#     else:
-#         print("Invalid choice")
+    elif(choice==4):                            
+        print("Delete the data:")
+        data = input("Enter the data to be deleted:")
+        try:
+            x = ls.index(data)
+            ls.pop(x)
+            print("Data deleted successfully.")
+        except:
+            print("Data not found.")
+
+    elif(choice==5):                            
+        print("Thanks for the operation.")
+        break
+
+    else:
+        print("Your choice is Invalid.")
+
 # # ==========================================================
 
     
