@@ -38,3 +38,22 @@ for j in ls:                                # it will create a list of ascii val
         ls1.append(temp)                    # append the palindrome ascii value to the list
 print("List of palindrome ascii values:", ls1)
         
+        
+        
+# =================================================
+    
+num = int(input("Enter the number:"))
+print("Original Number:",num)
+
+rev = 0
+temp = num 
+
+while temp > 0:
+    digit = temp % 10
+    rev = rev * 10 + digit
+    temp = temp // 10
+
+if num == rev:
+        print("Palindrome Number")  
+else:
+        print("Not a Palindrome")
