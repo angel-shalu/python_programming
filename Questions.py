@@ -386,6 +386,60 @@ while(True):         # infinite loop
         continue
         
             
-    
+# ==========================================================
+# WAP to find the aramstrong number and palindrome number
+# ==========================================================
+num = int(input("Enter the number:"))
+original_num = num
+print("Original Number:", original_num)
 
+sum_of_powers = 0   
+num_digits = len(str(num))     
+while num > 0:
+    digit = num % 10                          # % 10 se last digit nikalte hain
+    sum_of_powers += digit ** num_digits      # us digit ki power (len k barabar) nikal k sum m add kar diya
+    num = num // 10                           # last digit ko hatane k liye //10 kar diya
     
+# #Palindrome check
+# rev = 0
+# temp = original_num 
+# while temp > 0:
+#     digit = temp % 10
+#     rev = rev * 10 + digit
+#     temp = temp // 10
+
+rev = int(str(original_num)[::-1])  # ye ek line m palindrome check karne ka shortcut hai
+    
+if sum_of_powers == original_num:
+    print(f"{original_num} is an Armstrong number.")  
+      
+elif rev == original_num:
+    print(f"{original_num} is also a palindrome.")   
+    
+else:
+    print(f"{original_num} is a Normal number.")
+
+
+# ==========================================================`
+# WAP hailstone series
+n = int(input("Enter a number: "))
+print(n, end=" ")
+while n > 1:
+    if n % 2 == 0:
+        n = n // 2
+    else:
+        n = 3 * n + 1
+    print("→", n, end=" ")
+# ==========================================================
+# WAP to generate the hailstone sequence (Collatz sequence) for a given number n
+# ==========================================================
+ls = []
+def hailstone_sequence(n):
+    while n > 1:
+        if n % 2 == 0:
+            n = n // 2
+        else:
+            n = n*3 + 1
+        ls.append(n)
+hailstone_sequence(10)
+print(ls)

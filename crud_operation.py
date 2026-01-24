@@ -180,3 +180,58 @@ while(True):         # infinite loop
     else:
         print("You choice is Invalid.")
         continue
+    
+# ====================================================================================
+# CRUD OPERATION USING DICTIONARY
+# ====================================================================================
+dict = {}
+print(dict)
+
+while(True):         # infinite loop
+    print("""
+          Press 1 for add data in list
+          Press 2 for read the data 
+          Press 3 for update the data 
+          Press 4 for delete the data 
+          Press 5 for exit.
+          """)
+    choice = int(input("Enter your Choice:"))                # taking choice from user
+    
+    if(choice==1):          
+        print("Create the data:")
+        ndata = int(input("Enter the number of data: "))
+        for i in range(ndata):
+            print(f"Enter the data : {i+1}")
+            data=input("Enter the data :")
+            dict[data] = None  # Add the data to the dictionary
+                                
+    elif(choice==2):       
+        print("Read the data:")
+        for i in dict  :
+            print(f"My data = {i}")
+            
+    elif(choice==3):                                        
+        print("Update the data:")
+        data=input("Enter the data to be updated:")
+        try:
+            dict.pop(data)
+            udata=input("Enter the updated data:")
+            dict[udata] = None  # Add the updated data
+        except:
+            print("Data not found.")
+            
+    elif(choice==4):       
+        print("Delete the data:")   
+        data=input("Enter the data to be deleted:")
+        try:
+            dict.pop(data)
+        except:
+            print("Data not found.")
+
+    elif(choice==5):                                        
+        print("Thanks for the operation:") 
+        break
+       
+    else:
+        print("You choice is Invalid.")
+        continue
