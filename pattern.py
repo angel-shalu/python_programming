@@ -1,4 +1,19 @@
-# RIGHT ANGLE TRAINGELE PATTERN
+# # RIGHT ANGLE TRAINGELE PATTERN
+"""
+* 
+* *
+* * *
+* * * *
+* * * * *"""
+n = int(input("Enter the number of rows: "))
+print(n)
+
+for i in range(1, n+1):
+    for j in range(i):
+        print("*", end=" ")
+    print()
+# ------------------------------------------------------------
+
 def my_function(x):
     print("This is  a right angle trainglepattern program")
     for i in range(x):
@@ -188,3 +203,60 @@ def num_pattern(n):
         print()
 
 num_pattern(5)
+
+
+#============================================================================
+"""
+* * * * * * * * * 
+* * * *   * * * *
+* * *       * * *
+* *           * * 
+*               *
+"""
+n = 5
+
+for i in range(n):
+    # left stars
+    for j in range(n - i):
+        print("*", end=" ")
+
+    # middle spaces
+    for j in range(2*i):
+        print(" ", end=" ")
+
+    # right stars
+    for j in range(n - i - 1):
+        print("*", end=" ")
+
+    print()
+
+            
+#====================================================================================
+"""
+* * * * *
+* * * *
+* * *
+* *
+*"""
+n = 5
+for i in range(n, 0, -1):
+    for j in range(i):
+        print("*", end=" ")
+    print()
+    
+
+# ================================================================================
+# SQUARE PATTERN 
+# ================================================================================
+n= int(input("Enter the Number of rows: "))
+def squarer_pattern(n):
+    for i in range(n):
+        for j in range(n):
+            print("*", end=" ")
+        print()
+squarer_pattern(n)
+        
+        
+# ===================================================================================
+# 
+# ===================================================================================
