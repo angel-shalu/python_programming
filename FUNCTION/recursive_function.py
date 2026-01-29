@@ -3,7 +3,7 @@ It is used to solve problems that can be broken down into smaller, similar subpr
 
 ----------In recursive function, there are two main conditions-----------:
 1. Base Case: This is the condition under which the recursion stops. It prevents infinite recursion and eventual stack overflow.
-    Function khud ko call kna band kr dega or ruk jayega jab base case pr pohnch jayega.
+    Function khud ko call krna band kr dega or ruk jayega jab base case pr pohnch jayega.
     
 2. Recursion Case: This is where the function calls itself with a modified argument, moving towards the base case.
     Function apne aap ko call krta hai."""
