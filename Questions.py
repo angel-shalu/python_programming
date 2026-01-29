@@ -228,6 +228,7 @@ for i in letters:
 print("Vowels:", vowels)
 print("Consonants:", consonants)
 
+# ------------------------------------------------------
 # 2nd method
 letters = []
 vowels = []
@@ -443,3 +444,40 @@ def hailstone_sequence(n):
         ls.append(n)
 hailstone_sequence(10)
 print(ls)
+
+
+
+
+# =====================================================================================================
+# WAP to find all thr prime number from the given sequence 2, 3, 4, 5, 6, 7, 8, 9 using filter function
+# =====================================================================================================
+
+nums = [2, 3, 4, 5, 6, 7, 8, 9]
+
+# function to check prime
+def is_prime(n):
+    if n <= 1:
+        return False
+    for i in range(2, n):
+        if n % i == 0:
+            return False
+    return True
+
+# using filter function
+prime_numbers = list(filter(is_prime, nums))
+print("Prime numbers:", prime_numbers)
+
+# --------------------------------------------
+# 2nd method
+def prime_num(x):
+    i = 1
+    count = 0
+    while(i<=x):
+        if(x%i==0):
+            count+=1
+        i+=1
+    if count == 2:
+        return True
+l = [2, 3, 4, 5, 6, 7, 8, 9]
+l1 = list(filter(prime_num,l))
+print(l1)
