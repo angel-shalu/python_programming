@@ -76,3 +76,47 @@ nums = [2, 3, 4, 5, 6, 7, 8, 9]
 primes = list(filter(lambda n: n > 1 and all(n % i != 0 for i in range(2, n)), nums))
 print(primes)
 
+
+
+# ============================================================================================================================
+# Map Function :- When we want to changes the element from a sequence and generate a new element then we can use map function.
+# ============================================================================================================================
+l = [ 1,2,3,4,5]
+def my_square(x):
+    return x*x
+
+l1 = list(map(my_square, l))
+print(l1)
+l2 = list(map(lambda y: 2*y, l))
+print(l2)
+
+
+
+
+# ===========================================================================================================
+# Reduce Function :- It is use to reduce the length of a sequence
+# ===========================================================================================================
+from functools import *
+l = [10,20,30,40,50]
+l1 = reduce(lambda x,y:x+y,l)
+print(l1)
+
+# --------------------------------------
+from functools import *
+l = [10,20,30,40,50]
+def add(x1,y1):
+    return x1+y1
+v1 = reduce(add,l)
+print(v1)
+
+
+# --------------------------------
+from functools import *
+l = [10,20,30,40,50]
+def add(x1,y1):
+    return x1+y1
+v2 = reduce(lambda x,y : x+y, range(1,101))
+print(v2)
+
+
+
