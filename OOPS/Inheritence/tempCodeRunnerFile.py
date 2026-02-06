@@ -1,28 +1,8 @@
+# object creation
+# obj = Class1("shalu")
+# obj.show_class1()
+# print("-"*50)
 
-# class Person:
-#     def __init__(self, name):
-#         self.name = name
-#         print("Person constructor")
-
-#     def show_name(self):
-#         print(f"Name: {self.name}")
-
-
-# class Employee(Person):
-#     def __init__(self, name, salary):
-#         super().__init__(name)
-#         self.salary = salary
-#         print("Employee constructor")
-
-#     def show_salary(self):
-#         print(f"Salary: {self.salary}")
-
-
-# class Manager(Employee):
-#     def __init__(self, name, salary, department):
-#         super().__init__(name, salary)
-#         self.department = department
-#         print("Manager constructor")
-
-#     def show_department(self):
-#         print(f"Department: {self.department}")
+# obj1 = Class2("shalu", 2000000)
+# obj1.show_class2()
+# print("-"*50)
