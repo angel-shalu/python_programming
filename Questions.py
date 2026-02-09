@@ -487,11 +487,7 @@
 # ===============================================================================
 # 1. WAP to find the number of character repeated in a given string "hello bella".
 # ===============================================================================
-str = "hello bella"
-count={}
-for i in str():
-    for j in str(i, str+1):
-        if 
+
 
 
 
