@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Object Oriented programmng is a concept in which u can perform a real world programming.
 
 Four pillors of OOPs in python :
@@ -12,4 +13,20 @@ What is class in python ?
     Class is a blue print of object.
 
 Object:-
+=======
+Object Oriented programmng is a concept in which u can perform a real world programming.
+
+Four pillors of OOPs in python :
+    1. Inheritence
+    2. Polymorphism
+    3. Encapsulation
+    4. Abstraction
+
+What is class in python ?
+    Class is a user define data type.
+    Class is the collection of data member and member functions.
+    Class is a blue print of object.
+
+Object:-
+>>>>>>> edc38913634259038058ced79e7e8598d76e3cae
     Object is the instance of class.
