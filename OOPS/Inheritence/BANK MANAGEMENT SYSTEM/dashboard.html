@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<h2>Welcome {{ account.name }}</h2>
+<p>Balance: ₹{{ account.balance }}</p>
+
+<form method="post">
+    {% csrf_token %}
+    <input name="amount" placeholder="Amount">
+    <button name="action" value="deposit">Deposit</button>
+    <button name="action" value="withdraw">Withdraw</button>
+    <button name="action" value="interest">Add Interest</button>
+</form>
+
+<h3>Transactions</h3>
+<ul>
+{% for t in account.transactions %}
+    <li>{{ t }}</li>
+{% endfor %}
+</ul>
+
+</body>
+</html>

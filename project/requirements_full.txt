@@ -1,0 +1,14 @@
+ultralytics
+opencv-python
+pandas
+scikit-learn
+streamlit
+faiss-cpu
+sentence-transformers
+openai
+torch
+numpy
+fastapi
+uvicorn
+python-multipart
+boto3

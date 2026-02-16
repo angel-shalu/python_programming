@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Create Account</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<h2>Create Bank Account</h2>
+
+<form method="post">
+    {% csrf_token %}
+    <select name="type">
+        <option value="savings">Savings</option>
+        <option value="current">Current</option>
+    </select><br>
+
+    <input name="acc_no" placeholder="Account Number"><br>
+    <input name="name" placeholder="Name"><br>
+    <input name="pin" placeholder="PIN"><br>
+    <input name="balance" placeholder="Initial Balance"><br>
+    <input name="extra" placeholder="Interest / Overdraft"><br>
+
+    <button>Create</button>
+</form>
+</body>
+</html>
