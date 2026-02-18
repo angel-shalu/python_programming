@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 """Hailstone asal me Collatz Sequence / Collatz Conjecture se related term hai.
    Programming me jab hum kisi number se ek special rule follow karke sequence banate hain, usko Hailstone sequence kehte hain.
 
@@ -43,7 +42,6 @@ def hailstone_sequence(n):
         ls.append(n)
 hailstone_sequence(10)
 print(ls)
-=======
 """Hailstone asal me Collatz Sequence / Collatz Conjecture se related term hai.
    Programming me jab hum kisi number se ek special rule follow karke sequence banate hain, usko Hailstone sequence kehte hain.
 
@@ -88,4 +86,3 @@ def hailstone_sequence(n):
         ls.append(n)
 hailstone_sequence(10)
 print(ls)
->>>>>>> edc38913634259038058ced79e7e8598d76e3cae

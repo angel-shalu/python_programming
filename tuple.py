@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # """
 # When we want to represent a group of individual entity into an single entity,
 # then we can implement a tuple class to represent that group.
@@ -96,7 +95,6 @@ while(True):         # infinite loop
     else:
         print("You choice is Invalid.")
         continue
-=======
 # """
 # When we want to represent a group of individual entity into an single entity,
 # then we can implement a tuple class to represent that group.
@@ -194,4 +192,3 @@ while(True):         # infinite loop
     else:
         print("You choice is Invalid.")
         continue
->>>>>>> edc38913634259038058ced79e7e8598d76e3cae

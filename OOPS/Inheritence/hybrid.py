@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 """Combination of more than one inheritance is called hybrid.
 
 Hybrid inheritance = combination of two or more inheritance types
@@ -26,7 +25,6 @@ i.role()
 i.job()
 i.study()
 i.work()
-=======
 """Combination of more than one inheritance is called hybrid.
 
 Hybrid inheritance = combination of two or more inheritance types
@@ -54,4 +52,3 @@ i.role()
 i.job()
 i.study()
 i.work()
->>>>>>> edc38913634259038058ced79e7e8598d76e3cae

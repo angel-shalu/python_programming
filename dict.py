@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # """ DICTIONARY :-
 # Whenever we want to represent a grp of individual entity into a single entity, 
 # in a key:value pair , key must be unique and immutable (string, number, tuple etc) but value can be of any type and can be duplicate.
@@ -115,7 +114,6 @@ while(True):         # infinite loop
        
     else:
         print("You choice is Invalid.")
-=======
 # """ DICTIONARY :-
 # Whenever we want to represent a grp of individual entity into a single entity, 
 # in a key:value pair , key must be unique and immutable (string, number, tuple etc) but value can be of any type and can be duplicate.
@@ -232,5 +230,4 @@ while(True):         # infinite loop
        
     else:
         print("You choice is Invalid.")
->>>>>>> edc38913634259038058ced79e7e8598d76e3cae
         continue

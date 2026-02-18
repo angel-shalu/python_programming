@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 """When we declare a function insinde anyothe function then it is called nested function"""
 
 def outer():
@@ -36,7 +35,6 @@ def outer():
     
     print("Outer function finish")
 outer()
-=======
 """When we declare a function insinde anyothe function then it is called nested function"""
 
 def outer():
@@ -74,4 +72,3 @@ def outer():
     
     print("Outer function finish")
 outer()
->>>>>>> edc38913634259038058ced79e7e8598d76e3cae

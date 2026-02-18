@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 class Class1:
     def __init__(self, name):
         self.name = name
@@ -78,7 +77,6 @@ obj = Manager("Shalu", 700000, "IT")
 obj.show_name()              # from Person
 obj.show_salary()            # from Employee
 obj.show_department()        # from Manager
-=======
 class Class1:
     def __init__(self, name):
         self.name = name
@@ -158,4 +156,3 @@ obj = Manager("Shalu", 700000, "IT")
 obj.show_name()              # from Person
 obj.show_salary()            # from Employee
 obj.show_department()        # from Manager
->>>>>>> edc38913634259038058ced79e7e8598d76e3cae

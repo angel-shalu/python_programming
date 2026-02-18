@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 """Inhenritance is one of distinct features of OOPs
 	======Ek class dusri class ke properties (data + methods) ko use kar sake=====
 
@@ -27,7 +26,6 @@ class Child(Parent):
 c = Child()
 c.show()      # Parent ka method
 c.display()   # Child ka method
-=======
 """Inhenritance is one of distinct features of OOPs
 	======Ek class dusri class ke properties (data + methods) ko use kar sake=====
 
@@ -56,4 +54,3 @@ class Child(Parent):
 c = Child()
 c.show()      # Parent ka method
 c.display()   # Child ka method
->>>>>>> edc38913634259038058ced79e7e8598d76e3cae

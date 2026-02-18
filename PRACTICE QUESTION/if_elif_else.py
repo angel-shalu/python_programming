@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # """Q1. Smart Login Decision System
 
 # Input: Ek program likho jo user se:
@@ -494,7 +493,6 @@ elif (amount_balance - withdrawal_amount) < min_balance:
 else:
     print("Transaction Successful")
     
-=======
 # """Q1. Smart Login Decision System
 
 # Input: Ek program likho jo user se:
@@ -990,4 +988,3 @@ elif (amount_balance - withdrawal_amount) < min_balance:
 else:
     print("Transaction Successful")
     
->>>>>>> edc38913634259038058ced79e7e8598d76e3cae

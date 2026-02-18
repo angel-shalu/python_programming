@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 """TYPES OF ARGUMENT
     Positional Argument 
     Keyword 
@@ -54,7 +53,6 @@ argument_function4(6)
 argument_function4(10,20)
 
 argument_function5()
-=======
 """TYPES OF ARGUMENT
     Positional Argument 
     Keyword 
@@ -110,5 +108,4 @@ argument_function4(6)
 argument_function4(10,20)
 
 argument_function5()
->>>>>>> edc38913634259038058ced79e7e8598d76e3cae
 argument_function5(name="shalu", age=20, city="delhi")

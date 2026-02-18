@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import mysql.connector
 print("Connection Success")
 
@@ -16,7 +15,6 @@ mycursor.execute(sql)
 my_data = mycursor.fetchall()
 for i in my_data:
     print(i)
-=======
 import mysql.connector
 print("Connection Success")
 
@@ -34,4 +32,3 @@ mycursor.execute(sql)
 my_data = mycursor.fetchall()
 for i in my_data:
     print(i)
->>>>>>> edc38913634259038058ced79e7e8598d76e3cae

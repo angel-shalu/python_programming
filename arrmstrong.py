@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 """Agar kisi number ke digits ki power (jitne digits hain) ka sum usi number ke equal ho, 
 to use Armstrong number kehte hain.
 
@@ -66,7 +65,6 @@ else:
     print(f"{original_num} is a Normal number.")
 
 
-=======
 """Agar kisi number ke digits ki power (jitne digits hain) ka sum usi number ke equal ho, 
 to use Armstrong number kehte hain.
 
@@ -134,4 +132,3 @@ else:
     print(f"{original_num} is a Normal number.")
 
 
->>>>>>> edc38913634259038058ced79e7e8598d76e3cae

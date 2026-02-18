@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 """Operator overloading means we can use operator and method for different purposes.
 
     NOTE :- We can not overload the object of a class.
@@ -118,7 +117,6 @@ Detail = Employee_Detail("Shalu",25)
 print("Multiple of TWO class = ", Employee * Detail)
 
     
-=======
 """Operator overloading means we can use operator and method for different purposes.
 
     NOTE :- We can not overload the object of a class.
@@ -238,4 +236,3 @@ Detail = Employee_Detail("Shalu",25)
 print("Multiple of TWO class = ", Employee * Detail)
 
     
->>>>>>> edc38913634259038058ced79e7e8598d76e3cae

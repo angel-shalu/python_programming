@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 """
 
 When we declare function with having same name and passing parameter is also same such concept is know as method overriding..
@@ -51,7 +50,6 @@ class Child(Parent):
         
 obj = Child()
 obj.marry()
-=======
 """
 Child class parent class ke method ko redefine karta hai
     Same method name
@@ -84,4 +82,3 @@ class Child(Parent):
 
 obj = Child()
 obj.show()      #Parent ka method override ho gaya
->>>>>>> edc38913634259038058ced79e7e8598d76e3cae

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 """
 Sometime we can declare a function without name such type of function is known as anonymous function.
 These function have a purpose of instant use.
@@ -140,7 +139,6 @@ print(v2)
 
 
 
-=======
 """
 Sometime we can declare a function without name such type of function is known as anonymous function.
 These function have a purpose of instant use.
@@ -263,4 +261,3 @@ print(v2)
 
 
 
->>>>>>> edc38913634259038058ced79e7e8598d76e3cae

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 class my_class:
     x = "Shalu"
     def my_func():
@@ -9,7 +8,6 @@ print(my_class.x)
 obj.my_func()
 print("Print k sath call kiye isliye none aaya" ,obj.my_func())
 
-=======
 class my_class:
     x = "Shalu"
     def my_func():
@@ -20,5 +18,4 @@ print(my_class.x)
 obj.my_func()
 print("Print k sath call kiye isliye none aaya" ,obj.my_func())
 
->>>>>>> edc38913634259038058ced79e7e8598d76e3cae
 my_class.my_func()

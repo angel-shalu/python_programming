@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 """When a parent class can be inherited by more than one child class.
     Ek hi Parent class se multiple Child classes inherit karti hain."""
 
@@ -55,7 +54,6 @@ d.bark()
 c = Cat()
 c.sound()
 c.meow()
-=======
 """When a parent class can be inherited by more than one child class.
     Ek hi Parent class se multiple Child classes inherit karti hain."""
 
@@ -112,4 +110,3 @@ d.bark()
 c = Cat()
 c.sound()
 c.meow()
->>>>>>> edc38913634259038058ced79e7e8598d76e3cae

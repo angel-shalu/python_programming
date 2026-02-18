@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 """
 METHOD OVERLOADING.................
 
@@ -62,7 +61,6 @@ class Math:
 m = Math()
 m.add(2, 3)
 m.add(2, 3, 4, 5)
-=======
 """
 Same method name, but different number or type of parameters.
 
@@ -98,4 +96,3 @@ class Math:
 m = Math()
 m.add(2, 3)
 m.add(2, 3, 4, 5)
->>>>>>> edc38913634259038058ced79e7e8598d76e3cae

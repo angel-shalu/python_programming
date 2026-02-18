@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # # # RIGHT ANGLE TRAINGELE PATTERN
 # """
 # * 
@@ -273,7 +272,6 @@ my_function(5)
 #         print("*", end=" ")
 
 #     print()
-=======
 # # # RIGHT ANGLE TRAINGELE PATTERN
 # """
 # * 
@@ -548,4 +546,3 @@ my_function(5)
 #         print("*", end=" ")
 
 #     print()
->>>>>>> edc38913634259038058ced79e7e8598d76e3cae

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # """ SET :- 
 # When we want to represent a group of individual entity into an single entity, 
 
@@ -180,7 +179,6 @@ while(True):         # infinite loop
        
     else:
         print("You choice is Invalid.")
-=======
 # """ SET :- 
 # When we want to represent a group of individual entity into an single entity, 
 
@@ -362,5 +360,4 @@ while(True):         # infinite loop
        
     else:
         print("You choice is Invalid.")
->>>>>>> edc38913634259038058ced79e7e8598d76e3cae
         continue

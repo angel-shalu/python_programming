@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 """In multiple inheritence a single child class or derived class can inherit more than one parent class or base class"""
 
 class Class1:
@@ -30,7 +29,6 @@ class ChildClass(Class1,Class2):
 obj = ChildClass("Shalu", 700000)
 obj.show_class1()
 obj.show_class2()
-=======
 """In multiple inheritence a single child class or derived class can inherit more than one parent class or base class"""
 
 class Class1:
@@ -62,4 +60,3 @@ class ChildClass(Class1,Class2):
 obj = ChildClass("Shalu", 700000)
 obj.show_class1()
 obj.show_class2()
->>>>>>> edc38913634259038058ced79e7e8598d76e3cae

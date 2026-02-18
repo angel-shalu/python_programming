@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # String with for loop
 for i in range(10):
     print(i)
@@ -168,7 +167,6 @@ print("Multiplication is:", result)
 
 
 
-=======
 # String with for loop
 for i in range(10):
     print(i)
@@ -338,4 +336,3 @@ print("Multiplication is:", result)
 
 
 
->>>>>>> edc38913634259038058ced79e7e8598d76e3cae

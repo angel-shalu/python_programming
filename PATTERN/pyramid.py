@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # num = int(input("Enter the number of rows :"))
 # for i in range(0, num):
 #     for j in range(0, num-i-1):
@@ -104,7 +103,6 @@
 # ------------------------------
 
 
-=======
 # num = int(input("Enter the number of rows :"))
 # for i in range(0, num):
 #     for j in range(0, num-i-1):
@@ -210,4 +208,3 @@
 # ------------------------------
 
 
->>>>>>> edc38913634259038058ced79e7e8598d76e3cae

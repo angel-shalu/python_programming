@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 num = int(input("Enter number: "))
 rev = int(str(num)[::-1])
 
@@ -57,7 +56,6 @@ while temp > 0:
 if num == rev:
         print("Palindrome Number")  
 else:
-=======
 num = int(input("Enter number: "))
 rev = int(str(num)[::-1])
 
@@ -116,5 +114,4 @@ while temp > 0:
 if num == rev:
         print("Palindrome Number")  
 else:
->>>>>>> edc38913634259038058ced79e7e8598d76e3cae
         print("Not a Palindrome")

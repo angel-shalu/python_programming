@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # def diamond_pattern(n):
 #     for i in range(0,n):
 #         for j in range(0, n-i-1):
@@ -81,7 +80,6 @@ for r in range(n-1, 0, -1):
         else:
             print("  ", end="")
     print()
-=======
 # def diamond_pattern(n):
 #     for i in range(0,n):
 #         for j in range(0, n-i-1):
@@ -164,4 +162,3 @@ for r in range(n-1, 0, -1):
         else:
             print("  ", end="")
     print()
->>>>>>> edc38913634259038058ced79e7e8598d76e3cae

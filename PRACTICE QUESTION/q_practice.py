@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # WAP to find the largest and second largest number in a list using if–else
 ls = [45, 12, 78, 23, 89]
 
@@ -16,7 +15,6 @@ print("Largest:", largest)
 print("Second Largest:", second)
 
 
-=======
 # WAP to find the largest and second largest number in a list using if–else
 ls = [45, 12, 78, 23, 89]
 
@@ -34,4 +32,3 @@ print("Largest:", largest)
 print("Second Largest:", second)
 
 
->>>>>>> edc38913634259038058ced79e7e8598d76e3cae

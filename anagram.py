@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 """
 An anagram is a word or phrase made by rearranging the letters of another word or phrase, using all the same letters exactly once.
 
@@ -71,7 +70,6 @@ else:
         print("The strings are anagrams.")
     else:
         print("The strings are not anagrams.")
-=======
 """
 An anagram is a word or phrase made by rearranging the letters of another word or phrase, using all the same letters exactly once.
 
@@ -142,4 +140,3 @@ else:
 #         print("The strings are anagrams.")  
 #     else:
 #         print("The strings are not anagrams.")
->>>>>>> edc38913634259038058ced79e7e8598d76e3cae

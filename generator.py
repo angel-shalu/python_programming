@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # def my_generator():
 #     yield "A"
 #     yield "B"
@@ -48,7 +47,6 @@ print(var)
 for i in count_up(1):
     print(i)
 
-=======
 # def my_generator():
 #     yield "A"
 #     yield "B"
@@ -98,4 +96,3 @@ print(var)
 for i in count_up(1):
     print(i)
 
->>>>>>> edc38913634259038058ced79e7e8598d76e3cae

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # SEQUENCIAL DATA TYPE
 """ 
 LIST :-
@@ -307,7 +306,6 @@ while(True):         # infinite loop
     
 
     
-=======
 # SEQUENCIAL DATA TYPE
 """ 
 LIST :-
@@ -616,4 +614,3 @@ while(True):         # infinite loop
     
 
     
->>>>>>> edc38913634259038058ced79e7e8598d76e3cae

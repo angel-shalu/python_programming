@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 """ EXCEPTION HANDING AND FILE HANDLING
 
 
@@ -122,7 +121,6 @@ else:
 """TYPES OF EXCEPTIONS :-
     In python, there will be a two types of exception..
     1. Pre-Defined Exceptions
-=======
 """ EXCEPTION HANDING AND FILE HANDLING
 
 
@@ -246,5 +244,4 @@ else:
 """TYPES OF EXCEPTIONS :-
     In python, there will be a two types of exception..
     1. Pre-Defined Exceptions
->>>>>>> edc38913634259038058ced79e7e8598d76e3cae
 	2. User Defined Exceptions"""

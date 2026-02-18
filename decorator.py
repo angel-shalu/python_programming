@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # """When we pass function as an argument in another function to extend the functionality of a function 
 # and returns modified function this concept is known as decorator
 # 
@@ -105,7 +104,6 @@ greet("Shalini")
 #     print(f"In clg, plz attend all the lecture : {name}")
 # myfuction("Faculty")
 # myfuction("Shalu")
-=======
 # """When we pass function as an argument in another function to extend the functionality of a function 
 # and returns modified function this concept is known as decorator
 # 
@@ -212,5 +210,4 @@ greet("Shalini")
 #     print(f"In clg, plz attend all the lecture : {name}")
 # myfuction("Faculty")
 # myfuction("Shalu")
->>>>>>> edc38913634259038058ced79e7e8598d76e3cae
 # myfuction("Shalini")

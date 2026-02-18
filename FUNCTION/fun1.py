@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 """When the large program can be divided into sub programs and these sub programs is content a block of code that perform a specific task.
 These block of code are called functions.
 
@@ -77,7 +76,6 @@ print("Value of a outside function:", a)              # prints global variable a
 
 
 
-=======
 """When the large program can be divided into sub programs and these sub programs is content a block of code that perform a specific task.
 These block of code are called functions.
 
@@ -156,4 +154,3 @@ print("Value of a outside function:", a)              # prints global variable a
 
 
 
->>>>>>> edc38913634259038058ced79e7e8598d76e3cae

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 """When a function automatically calls itself is called recursive function.
 It is used to solve problems that can be broken down into smaller, similar subproblems.
 
@@ -28,7 +27,6 @@ def myrecursive_function(n):
 # Test the recursive function
 answer = myrecursive_function(10)
 print("Factorial of 10 is:", answer)
-=======
 """When a function automatically calls itself is called recursive function.
 It is used to solve problems that can be broken down into smaller, similar subproblems.
 
@@ -58,5 +56,4 @@ def myrecursive_function(n):
 # Test the recursive function
 answer = myrecursive_function(10)
 print("Factorial of 10 is:", answer)
->>>>>>> edc38913634259038058ced79e7e8598d76e3cae
         

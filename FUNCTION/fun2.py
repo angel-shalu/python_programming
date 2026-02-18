@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # no return with argument
 
 def user_login(x):
@@ -74,7 +73,6 @@ def user_login(x=5):
         
 user_login()
 
-=======
 # no return with argument
 
 def user_login(x):
@@ -150,4 +148,3 @@ def user_login(x=5):
         
 user_login()
 
->>>>>>> edc38913634259038058ced79e7e8598d76e3cae

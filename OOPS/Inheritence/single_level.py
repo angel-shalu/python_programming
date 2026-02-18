@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 class parent:
     x = 100
 class child(parent):
@@ -77,7 +76,6 @@ def my_func(a):
     print("Thid is my_function 1 ")
 def my_func(b):
     print("Thid is my_function 2 ")
-=======
 class parent:
     x = 100
 class child(parent):
@@ -156,5 +154,4 @@ def my_func(a):
     print("Thid is my_function 1 ")
 def my_func(b):
     print("Thid is my_function 2 ")
->>>>>>> edc38913634259038058ced79e7e8598d76e3cae
 my_func(777)

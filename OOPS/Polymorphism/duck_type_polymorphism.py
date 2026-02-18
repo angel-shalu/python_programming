@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 class Dog:
     def speak(self):
         print("Bark")
@@ -41,7 +40,6 @@ for i in l:
     # print(i)
     func(i)
     
-=======
 class Dog:
     def speak(self):
         print("Bark")
@@ -84,4 +82,3 @@ for i in l:
     # print(i)
     func(i)
     
->>>>>>> edc38913634259038058ced79e7e8598d76e3cae

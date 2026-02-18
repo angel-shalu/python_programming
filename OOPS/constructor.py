@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # ZERO ARGUMENT CONSTRUCTOR
 # ---------------------------
 class my_class:
@@ -69,7 +68,6 @@ obj.user_func()
 # ======================================================
 # WAP to find sum of 1 to 100 using class and function.
 # ======================================================
-=======
 # ZERO ARGUMENT CONSTRUCTOR
 # ---------------------------
 class my_class:
@@ -140,4 +138,3 @@ obj.user_func()
 # ======================================================
 # WAP to find sum of 1 to 100 using class and function.
 # ======================================================
->>>>>>> edc38913634259038058ced79e7e8598d76e3cae
